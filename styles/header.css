@@ -1,0 +1,67 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  margin: 16px 10px;
+}
+.gmail-link, .images-link{
+  font-size: 13px;
+  font-weight: 400;
+  margin: 8px 8px;
+  cursor: pointer;
+}
+.gmail-link:hover, .images-link:hover{
+  text-decoration: underline;
+}
+.images-link{
+  margin-right: 12px;
+}
+.profile-button, .apps-button{
+  border: none;
+  height: 34px;
+  width: 34px;
+  border-radius: 17px;
+  cursor: pointer;
+} 
+.profile, .apps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile .tooltip, .apps .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  top: 50px;
+  pointer-events: none;
+}
+.profile:hover .tooltip, .apps:hover .tooltip{
+  opacity: 1;
+}
+.apps-button{
+  background-color: transparent;
+  margin-right: 16px;
+}
+.apps-button:hover{
+  background-color: rgb(226, 222, 222);
+  transition: 0.15s;
+}
+.profile-button{
+  background-color: rgb(16, 117, 190);
+}
+#dots2{
+  margin-right: -2px;
+  margin-left: -2px;
+}
+#dots1,#dots2,#dots3{
+  color: #5f6368;
+}
+#c{
+  color: white;
+}
