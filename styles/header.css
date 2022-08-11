@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  margin: 16px 10px;
+  margin: 16px 20px;
 }
 .gmail-link, .images-link{
   font-size: 13px;
@@ -15,13 +15,13 @@
   text-decoration: underline;
 }
 .images-link{
-  margin-right: 12px;
+  margin-right: 16px;
 }
 .profile-button, .apps-button{
   border: none;
-  height: 34px;
-  width: 34px;
-  border-radius: 17px;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
   cursor: pointer;
 } 
 .profile, .apps{
